@@ -45,7 +45,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('
+𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton(' 😎 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
             InlineKeyboardButton('🔥 𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/Rkrishana')
@@ -91,13 +92,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('
+𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Rkrishana')
+            InlineKeyboardButton('😇 𝗔𝗯𝗼𝘂𝘁', url='https://t.me/Rkrishana')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('𝗛𝗲𝗹𝗽❓', callback_data='help'),
+            InlineKeyboardButton('😇 𝗔𝗯𝗼𝘂𝘁', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
