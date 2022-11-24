@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ Update ⚡', url='https://t.me/Rkrishana')
             ],
             [
-                InlineKeyboardButton('⚡ Owner ⚡', url=f"https://t.me/Sandipchavan10"),
+                InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url=f"https://t.me/Sandipchavan10"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Owner ⚡', url='https://t.me/Sandipchavan10'),
+            InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Rkrishana')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Owner ⚡', url='https://t.me/Sandipchavan10'),
+            InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Rkrishana')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
