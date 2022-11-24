@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ Update ⚡', url='https://t.me/Rkrishana')
+                InlineKeyboardButton('🔥 𝐔𝐩𝐝𝐚𝐭𝐞 ', url='https://t.me/Rkrishana')
             ],
             [
-                InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url=f"https://t.me/Sandipchavan10"),
+                InlineKeyboardButton(' 😎 𝗢𝘄𝗻𝗲𝗿 ', url=f"https://t.me/Sandipchavan10"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,11 +47,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton(' 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Rkrishana')
+            InlineKeyboardButton(' 😎 𝗢𝘄𝗻𝗲𝗿 ', url='https://t.me/Sandipchavan10'),
+            InlineKeyboardButton('🔥 𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/Rkrishana')
             ],[
-            InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ About ♻️', callback_data='about')
+            InlineKeyboardButton('𝗛𝗲𝗹𝗽❓', callback_data='help'),
+            InlineKeyboardButton('😇 𝗔𝗯𝗼𝘂𝘁 ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥", url=ihttps://t.me/Rkrishana
+                    "🔥 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔥", url=ihttps://t.me/Rkrishana
                 )
             ]
         ]
